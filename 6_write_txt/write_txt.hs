@@ -6,7 +6,7 @@ main = do
   let _lines = lines text
       firstLine = head _lines
       lastLine = last _lines
-      output = firstLine ++ "\n" ++ lastLine
+      output = firstLine ++ "\n\n" ++ lastLine
   writeFile "write_hs.txt" output
   
 
